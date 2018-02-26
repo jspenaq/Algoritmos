@@ -160,6 +160,6 @@ int main()
 	OVERFLOW: long long n = 47
 	*/
 
-	system("pause");
+	// system("pause"); // Descomentar si se compila usando Visual Studio
 	return 0;
 }
