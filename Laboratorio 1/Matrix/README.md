@@ -1,0 +1,2 @@
+Matrix:<br/>
+Desarrolle un programas en Java, C-C++, Python y Python usando arreglos Numpy que multiplican una matriz cuadrada con entradas  1's por con entradas 2's  y que retorne el tiempo estimado por instrucción (considerando sumas y productos)  utilícelos para graficar tiempo estimado por instrucción (usando como estimador el promedio de al menos 10 ejecuciones del programa para cada n)  en función de n en el serviodr de ideone.com y un laptop o desktop
