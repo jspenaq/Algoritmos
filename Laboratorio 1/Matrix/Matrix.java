@@ -1,9 +1,6 @@
-
 import java.util.ArrayList;
-import java.util.Arrays;
 
 /**
- *
  * @author Sebastian Peña
  */
 public class Matrix {
