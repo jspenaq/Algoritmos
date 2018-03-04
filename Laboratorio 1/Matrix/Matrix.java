@@ -1,3 +1,5 @@
+
+import java.util.ArrayList;
 import java.util.Arrays;
 
 /**
@@ -23,16 +25,6 @@ public class Matrix {
         return M;
     }
 
-    static int[][] addMatrices(int[][] m1, int[][] m2) {
-        int[][] result = new int[m1.length][m1[0].length];
-        for (int i = 0; i < result.length; i++) {
-            for (int j = 0; j < result.length; j++) {
-                result[i][j] = m1[i][j] + m2[i][j];
-            }
-        }
-        return result;
-    }
-
     static int[][] multiplyMatrices(int[][] m1, int[][] m2) {
         int[][] result = new int[m1.length][m2[0].length];
         for (int i = 0; i < result.length; i++) {
@@ -44,58 +36,53 @@ public class Matrix {
         }
         return result;
     }
-    
-    static long avgTimes(long[] t) {
-        int sum = 0;
+
+    static double avgTimes(long[] t) {
+        long sum = 0;
         for (long l : t) {
             sum += l;
         }
-        return sum / t.length;
+        return ((double) sum) / t.length;
     }
-    
+
     public static void main(String[] args) {
         long t0, tf;    // Variables para medir el tiempo en milisegundos
-        int test = 10;  // Cantidad de pruebas que se haran
-        long[] times = new long[test];
+        int test = 10;  // Cantidad de pruebas que se haran por tamaño
+        int max = 100;   // Cantidad maxima de tamaños para matrices cuadradas que se multiplicaran
+        ArrayList<Double> times = new ArrayList<>(); // Lista para manejar los tiempos
 
-        int size = 500;
-        int m1[][] = createMatrix(size, 1);
-        int m2[][] = createMatrix(size, 2);
-        
-        System.out.println("Addition:");
-        int add[][];
-        for (int i = 0; i < test; i++) {
-            t0 = System.currentTimeMillis();
-            add = addMatrices(m1, m2);
-            tf = System.currentTimeMillis();
-            times[i] = tf - t0;
+        for (int n = 2; n < max+1; n++) { // n = size
+            int m1[][] = createMatrix(n, 1);
+            int m2[][] = createMatrix(n, 2);
+            int mult[][] = new int[n][n];
+            
+            
+            double sum = 0;
+            for (int i = 0; i < test; i++) {
+                t0 = System.currentTimeMillis();
+                mult = multiplyMatrices(m1, m2);
+                tf = System.currentTimeMillis();
+                double aux = ((tf - t0) * 0.001 ) / (2 * Math.pow(n, 3.0));
+                sum += aux;
+            }
+            times.add(sum / test); // Avg
+            System.out.println("Matrix " + n + ": " + times.get(n-2));
         }
-        //printMatrix(add);
-        System.out.println("Times: " + Arrays.toString(times));
-        System.out.println("Average: " + avgTimes(times) + " miliseconds");
-        System.out.println("--------------------");
-        
-        System.out.println("Multiplication:");
-        int mult[][];
-        for (int i = 0; i < test; i++) {
-            t0 = System.currentTimeMillis();
-            mult = multiplyMatrices(m1, m2);
-            tf = System.currentTimeMillis();
-            times[i] = tf - t0;
-        }
-        //printMatrix(mult);
-        System.out.println("Times:" + Arrays.toString(times));
-        System.out.println("Average: " + avgTimes(times) + " miliseconds");
-        
-        /* OUTPUT:
-        Addition:
-        Times: [16, 0, 0, 0, 0, 0, 16, 0, 0, 0]
-        Average: 3 miliseconds
-        --------------------
-        Multiplication:
-        Times:[468, 457, 797, 816, 801, 786, 802, 782, 786, 771]
-        Average: 726 miliseconds
-        */
+        System.out.println("Times:\n" + (times));
+
+        /* ULTIMAS 11 MATRICES:
+        Matrix 90: 2.1262002743484224E-9
+        Matrix 91: 3.1184851858683523E-9
+        Matrix 92: 1.9905276567765264E-9
+        Matrix 93: 1.9891665019388156E-9
+        Matrix 94: 1.8661568245957063E-9
+        Matrix 95: 2.7409243329931474E-9
+        Matrix 96: 2.656159577546296E-9
+        Matrix 97: 3.3966163127428996E-9
+        Matrix 98: 2.496833802242263E-9
+        Matrix 99: 2.2158118270759836E-9
+        Matrix 100: 2.0E-9
+         */
     }
 
 }
