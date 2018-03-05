@@ -1,8 +1,7 @@
 import numpy as np
 import pylab as pl
 import time
-# %matplotlib inline
-
+import matplotlib as plt
 
 test = 10   # Cantidad de pruebas que se haran por tamaño
 max = 100   # Cantidad maxima de tamaños para matrices cuadradas que se multiplicaran
