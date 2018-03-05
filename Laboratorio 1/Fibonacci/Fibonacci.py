@@ -3,7 +3,7 @@
 import numpy as np
 import pylab as pl
 import time
-# %matplotlib inline
+import matplotlib as plt
 
 def fiboIte(n):
     if n == 0:
@@ -24,7 +24,7 @@ for i in range(max+1):
     print("fiboIte({}): {}, time: {} seconds process time".format(i, k, tf - t0))
     timesI.append(tf - t0)
 
-arange = np.arange(max+1)
+arange = np.arange(1, max+1)
 pl.ylabel("Tiempo")
 pl.xlabel('Tamaño')
 pl.plot(arange, timesI)
