@@ -17,8 +17,8 @@ def fiboIte(n):
 timesI = []      # Lista para guardar los tiempos
 max = 500       # Numero maximo de fibonacci que se calculará
 
+t0 = time.clock()
 for i in range(max+1):
-    t0 = time.clock()
     k = fiboIte(i)
     tf = time.clock()
     print("fiboIte({}): {}, time: {} seconds process time".format(i, k, tf - t0))
