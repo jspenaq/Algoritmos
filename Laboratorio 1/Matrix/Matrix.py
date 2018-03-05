@@ -1,8 +1,7 @@
 import numpy as np
 import pylab as pl
 import time
-# %matplotlib inline
-
+import matplotlib as plt
 
 def print_matrix(matrix):
     for row in matrix:
