@@ -1,1 +1,1 @@
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=19PPyRr8J-0" target="_blank"><img src="http://img.youtube.com/vi/19PPyRr8J-0/0.jpg" alt="IMAGE ALT TEXT HERE" width="560" height="315" border="10" allow="autoplay; encrypted-media" allowfullscreen/></a>
+<a href="http://www.youtube.com/watch?v=19PPyRr8J-0" target="_blank"><img src="http://img.youtube.com/vi/19PPyRr8J-0/0.jpg" alt="IMAGE ALT TEXT HERE" width="560" height="315" border="10" allow="autoplay; encrypted-media" allowfullscreen/></a>
