@@ -103,9 +103,9 @@ Matrix 98: +3.18107e-10
 Matrix 99: +3.18871e-10
 Matrix 100: +3.21000e-10
 ```
-Tiempo | Memoria:
+Tiempo | Memoria
 --- | ---
-0.25 | 20460KB
+0.25s | 20460KB
 
 Se reduce bastante el tiempo, baja de 2.2E-9 a 3.21  E-10
 
@@ -215,7 +215,9 @@ Matrix 99: 1.0306101521283643E-9
 Matrix 100: 1.0000000000000003E-9
 ```
 
-Tiempo y memoria: 0.64s 48024KB
+Tiempo | Memoria
+--- | ---
+0.64s | 48024KB
 
 Se reduce el tiempo, baja de 2.0E-9 a 1.0E-9
 
