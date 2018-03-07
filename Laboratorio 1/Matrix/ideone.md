@@ -107,8 +107,6 @@ Tiempo y memoria: 0.2s 20460KB
 
 Se reduce bastante el tiempo, baja de 2.2E-9 a 3.21  E-10
 
-======
-
 ------
 
 ## Matrix.java
@@ -219,7 +217,7 @@ Tiempo y memoria: 0.64s 48024KB
 
 Se reduce el tiempo, baja de 2.0E-9 a 1.0E-9
 
-------------------------------------------------------------------------
+------
 
 ## Matrix.py
 
@@ -299,10 +297,10 @@ Tiempo y memoria: 12.13s 24864KB
 
 Se logra bajar de 2.087E-7 a 9.566E-8
 
-------------------------------------------------------------------------
+------
 
 MatrixNumpy.py
-
+```
 Matrix 2: 3.999999999998796e-07
 Matrix 3: 8.888888888892636e-08
 Matrix 4: 3.437499999999101e-08
@@ -402,9 +400,7 @@ Matrix 97: 2.838365986503376e-10
 Matrix 98: 2.844265569618144e-10
 Matrix 99: 2.8496370706349176e-10
 Matrix 100: 2.8310000000000283e-10
-
+```
 Tiempo y memoria: 0.31s 25136KB
--> Se reduce el tiempo, baja de 4.26E-10 a 2.83E-10
 
-
-
+Se reduce el tiempo, baja de 4.26E-10 a 2.83E-10
