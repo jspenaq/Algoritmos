@@ -104,13 +104,15 @@ Matrix 99: +3.18871e-10
 Matrix 100: +3.21000e-10
 ```
 Tiempo y memoria: 0.2s 20460KB
--> Se reduce bastante el tiempo, baja de 2.2E-9 a 3.21  E-10
+
+Se reduce bastante el tiempo, baja de 2.2E-9 a 3.21  E-10
 
 ------------------------------------------------------------------------
 
 ## Matrix.java
 
-> Matrix 2: 0.0
+```
+Matrix 2: 0.0
 Matrix 3: 0.0
 Matrix 4: 0.0
 Matrix 5: 0.0
@@ -209,16 +211,18 @@ Matrix 97: 1.040898547453469E-9
 Matrix 98: 1.062482469039261E-9
 Matrix 99: 1.0306101521283643E-9
 Matrix 100: 1.0000000000000003E-9
+```
 
 Tiempo y memoria: 0.64s 48024KB
--> Se reduce el tiempo, baja de 2.0E-9 a 1.0E-9
+
+Se reduce el tiempo, baja de 2.0E-9 a 1.0E-9
 
 ------------------------------------------------------------------------
 
-Matrix.py
+## Matrix.py
 
 El tiempo maximo (15s) fue excedido por lo que se reduce el numero maximo de matrices
-
+```
 Matrix 2: 5.375000000000171e-07
 Matrix 3: 2.962962962962841e-07
 Matrix 4: 2.453125000000068e-07
@@ -288,9 +292,10 @@ Matrix 67: 9.586418542174382e-08
 Matrix 68: 9.594650035619777e-08
 Matrix 69: 9.60539893884184e-08
 Matrix 70: 9.566953352769627e-08
-
+```
 Tiempo y memoria: 12.13s 24864KB
--> Se logra bajar de 2.087E-7 a 9.566E-8
+
+Se logra bajar de 2.087E-7 a 9.566E-8
 
 ------------------------------------------------------------------------
 
