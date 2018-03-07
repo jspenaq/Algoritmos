@@ -1,7 +1,8 @@
-#Resultados de los codigos para matrices compilados en ideone.com:
+# Resultados de los codigos para matrices compilados en ideone.com:
 
-##Matrix.cpp
+## Matrix.cpp
 
+```
 Matrix 2: +3.12500e-08
 Matrix 3: +5.55556e-09
 Matrix 4: +3.90625e-09
@@ -101,7 +102,7 @@ Matrix 97: +3.19720e-10
 Matrix 98: +3.18107e-10
 Matrix 99: +3.18871e-10
 Matrix 100: +3.21000e-10
-
+```
 Tiempo y memoria: 0.2s 20460KB
 -> Se reduce bastante el tiempo, baja de 2.2E-9 a 3.21  E-10
 
