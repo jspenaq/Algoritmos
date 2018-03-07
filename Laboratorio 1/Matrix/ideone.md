@@ -297,7 +297,9 @@ Matrix 68: 9.594650035619777e-08
 Matrix 69: 9.60539893884184e-08
 Matrix 70: 9.566953352769627e-08
 ```
-Tiempo y memoria: 12.13s 24864KB
+Tiempo | Memoria
+--- | ---
+12.13s | 24864KB
 
 Se logra bajar de 2.087E-7 a 9.566E-8
 
@@ -405,6 +407,8 @@ Matrix 98: 2.844265569618144e-10
 Matrix 99: 2.8496370706349176e-10
 Matrix 100: 2.8310000000000283e-10
 ```
-Tiempo y memoria: 0.31s 25136KB
+Tiempo | Memoria
+--- | ---
+0.31s | 25136KB
 
 Se reduce el tiempo, baja de 4.26E-10 a 2.83E-10
