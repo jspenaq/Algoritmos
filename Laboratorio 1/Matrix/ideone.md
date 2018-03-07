@@ -1,6 +1,6 @@
 # Resultados de los codigos para matrices compilados en ideone.com:
 
-## [Matrix.cpp](https://www.youtube.com/watch?v=19PPyRr8J-0)
+## [Matrix.cpp](jspenaq/algoritmos/Laboratorio 1/Matrix/Matrix.cpp)
 
 ```
 Matrix 2: +3.12500e-08
