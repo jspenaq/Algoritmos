@@ -35,6 +35,6 @@ Specification → Development → Validation → Evolution
 - It's what we normally call software development methodologies
 
 Predictive | Iterative | Agile
---- | --- | ---
+------|------|-----
 <li>Waterfall</li><li>Waterfall with feed back</li><li>Sashimi</li><li>Incremental</li> | <li>Spiral</li><li>UP</li><li>RUP</li> | <li>XP</li><li>Lean</li><li>Crystal</li><li>FDD</li><li>AUP</li><li>DAD</li><li>Kanban</li>
 
