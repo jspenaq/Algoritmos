@@ -1,1 +1,40 @@
-<a href="http://www.youtube.com/watch?v=19PPyRr8J-0" target="_blank"><img src="http://img.youtube.com/vi/19PPyRr8J-0/0.jpg" alt="IMAGE ALT TEXT HERE" width="560" height="315" border="10" allow="autoplay; encrypted-media" allowfullscreen/></a>
+### Design
+
+- Design shows <u>every</u> single piece of software: databases, interactions, interfaces
+- What data composes your system and how they interact
+- This is the guide that programmers will implement
+
+### Implementation
+
+- Write code
+- IDE's
+
+### Testing
+
+- Developers test their code
+- Non-developers test the software
+
+### Deplyoment
+
+- It’s the process of putting the final application in the user’s hands
+
+### Maintenance
+
+- Patches
+- Security updates
+- Compatibility with newer hardware
+- Optimization
+
+
+## Software Processes (Generic)
+
+Specification → Development → Validation → Evolution
+
+### Process model
+- Well, it’s how you manage to organize and prioritize activities
+- It's what we normally call software development methodologies
+
+Predictive | Iterative | Agile
+--- | --- | ---
+<li>Waterfall</li><li>Waterfall with feed back</li><li>Sashimi</li><li>Incremental</li> | <li>Spiral</li><li>UP</li><li>RUP</li> | <li>XP</li><li>Lean</li><li>Crystal</li><li>FDD</li><li>AUP</li><li>DAD</li><li>Kanban</li>
+
