@@ -34,7 +34,10 @@ Specification → Development → Validation → Evolution
 - Well, it’s how you manage to organize and prioritize activities
 - It's what we normally call software development methodologies
 
-Predictive | Iterative | Agile
-------|------|-----
-<li>Waterfall</li><li>Waterfall with feed back</li><li>Sashimi</li><li>Incremental</li> | <li>Spiral</li><li>UP</li><li>RUP</li> | <li>XP</li><li>Lean</li><li>Crystal</li><li>FDD</li><li>AUP</li><li>DAD</li><li>Kanban</li>
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+| <ul><li>item1</li><li>item2</li></ul>| See the list | from the first column|
 
