@@ -39,5 +39,5 @@ Specification → Development → Validation → Evolution
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
-| <li>item1</li><li>item2</li>| See the list | from the first column|
+| <li>item1</li><li>item2</li> | See the list | from the first column|
 
